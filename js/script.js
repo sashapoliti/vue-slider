@@ -29,5 +29,6 @@ createApp({
           }
     },
     mounted() {
+        setInterval(this.nextSlide, 3000);
     }
   }).mount("#app");
