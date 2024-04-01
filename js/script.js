@@ -10,6 +10,9 @@ createApp({
       };
     },
     methods: {
+        goToSlide(index) {
+            this.activeIndexSlide = index;
+        }
     },
     mounted() {
     }
