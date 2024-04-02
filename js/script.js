@@ -33,6 +33,7 @@ createApp({
           },
           stopInterval() {
             clearInterval(this.myInterval);
+            this.myInterval = null;
           }
     },
     mounted() {
