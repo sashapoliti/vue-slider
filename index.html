@@ -20,7 +20,8 @@
             <div class="slider-wrapper" tabindex="0"
             @mouseenter="stopInterval"
             @mouseleave="startInterval"
-            @focus="stopInterval">
+            @focus="stopInterval"
+            @blur="startInterval">
                 <div class="item">
                     <img :src="slides[activeIndexSlide].image" :alt="slides[activeIndexSlide].title" />
                     <div class="text">
